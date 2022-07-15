@@ -1,5 +1,5 @@
 ---
-layout: comment
+layout: comm
 title: /comment
 permalink: /comment/
 ---
