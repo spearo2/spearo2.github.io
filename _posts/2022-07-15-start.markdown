@@ -1,6 +1,7 @@
 ---
 layout: post
 type: life
+comments: true
 ---
 
 # Starting this blog..

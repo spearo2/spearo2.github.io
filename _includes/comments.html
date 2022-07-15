@@ -4,6 +4,7 @@
     let request = new XMLHttpRequest();
     request.open( 'GET', GH_API_URL, true );
     request.onload = function() {
+        log.console( this.status);
         if ( this.status >= 200 && this.status < 400 ) {
             let response = JSON.parse( this.response );
     
