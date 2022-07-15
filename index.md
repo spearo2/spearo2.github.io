@@ -6,7 +6,7 @@ permalink: /
 
 # Zack CG Lee (Changgong Lee)'s blog
 
-<img src="{{site.url}}/assets/images/YCZM.gif" width="100px" height="100px" alt="mainImage">
+<img src="{{site.url}}/assets/images/YCZM.gif" alt="mainImage">
 
 ### For our neighbors and community.
 
