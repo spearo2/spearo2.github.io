@@ -4,12 +4,16 @@ google_analytics: UA-NNNNNNNN-N
 
 header_pages:
   - index.md
-  - about.md
+  - paper_review.md
+  - life.md
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: '<h2>Contact</h2>  leechanggong@gmail.com'
 
 style: hacker
+
 listen_for_clients_preferred_style: true
 
 plugins:
   - jekyll-seo-tag
+
+url: "https://zackcglee.github.io"

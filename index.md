@@ -4,6 +4,18 @@ layout: home
 permalink: /
 ---
 
-# Lorem ipsum
+# Zack CG Lee (Changgong Lee)'s blog
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<img src="{{site.url}}/assets/images/YCZM.gif" alt="mainImage">
+
+### For our neighbors and community.
+
+## Publications
+
+- Yoon-ho Choi, Chang-gong Lee, Jaechang Nam, An Empirical Study on Defects in Open Source Artificial Intelligence Applications, in Journal of KIISE, Korea, To appear (The extesion of the KCSE 2022 paper)
+
+## Educations
+
+- 2014 ~ 2015 : Greenfield Community College, U.S.A. - AA in Economics.
+- 2015 ~ 2016 : University of Massachussetts Amherst, U.S.A. - BA in Economics (Not completed).
+- 2021 ~ 2022 : Handong Global University, South Korea - BS in Information Technology and Global Management.
