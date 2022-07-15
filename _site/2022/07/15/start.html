@@ -10,8 +10,8 @@
 <meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="Start" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This is temp." />
-<meta property="og:description" content="This is temp." />
+<meta name="description" content="Starting this blog.." />
+<meta property="og:description" content="Starting this blog.." />
 <link rel="canonical" href="http://localhost:4000/2022/07/15/start.html" />
 <meta property="og:url" content="http://localhost:4000/2022/07/15/start.html" />
 <meta property="og:type" content="article" />
@@ -19,19 +19,85 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Start" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-07-15T00:00:00+09:00","datePublished":"2022-07-15T00:00:00+09:00","description":"This is temp.","headline":"Start","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/07/15/start.html"},"url":"http://localhost:4000/2022/07/15/start.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-07-15T00:00:00+09:00","datePublished":"2022-07-15T00:00:00+09:00","description":"Starting this blog..","headline":"Start","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/07/15/start.html"},"url":"http://localhost:4000/2022/07/15/start.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" type="text/css" href="/assets/main-light.css"></head>
 <body>
     <div class="container"><header>
   <div class="menu">
-    <ul><li><a href="/">/</a></li><li><a href="/paper_review/">/paper_review</a></li><li><a href="/life/">/life</a></li></ul>
+    <ul><li><a href="/">/</a></li><li><a href="/paper_review/">/paper_review</a></li><li><a href="/theory/">/theory</a></li><li><a href="/life/">/life</a></li></ul>
   </div>
 </header>
 <main>
-      <p>This is temp.</p>
+      <h1 id="starting-this-blog">Starting this blog..</h1>
 
-    </main><footer>
+<p>I am only an undergraduate student in Computer Science, but I am starting this blog hoping that my posts will be able to spread knowledge about software engineering and its importance. I will mainly deal with software engineering and other topics related to my research and interests. My main interests are in the automatic program repair and defect prediction algorithms. Also, I am interested in the sports science and the quantum computing.</p>
+
+<p>My goal is to solve the NP problem or suggest a practical solution for the automation of software maintainances. Most of my research is also related to that problem. Hope my posts will be helpful to people who are interested in software engineering.</p>
+
+    </main><script>
+    const GH_API_URL = 'https://api.github.com/repos/aristath/aristath.github.com/issues/5/comments?per_page=100';
+    
+    let request = new XMLHttpRequest();
+    request.open( 'GET', GH_API_URL, true );
+    request.onload = function() {
+        if ( this.status >= 200 && this.status < 400 ) {
+            let response = JSON.parse( this.response );
+    
+            for ( var i = 0; i < response.length; i++ ) {
+                document.getElementById( 'gh-comments-list' ).appendChild( createCommentEl( response[ i ] ) );
+            }
+    
+            if ( 0 === response.length ) {
+                document.getElementById( 'no-comments-found' ).style.display = 'block';
+            }
+        } else {
+            console.error( this );
+        }
+    };
+    
+    function createCommentEl( response ) {
+        let user = document.createElement( 'a' );
+        user.setAttribute( 'href', response.user.url.replace( 'api.github.com/users', 'github.com' ) );
+        user.classList.add( 'user' );
+    
+        let userAvatar = document.createElement( 'img' );
+        userAvatar.classList.add( 'avatar' );
+        userAvatar.setAttribute( 'src', response.user.avatar_url );
+    
+        user.appendChild( userAvatar );
+    
+        let commentLink = document.createElement( 'a' );
+        commentLink.setAttribute( 'href', response.html_url );
+        commentLink.classList.add( 'comment-url' );
+        commentLink.innerHTML = '#' + response.id + ' - ' + response.created_at;
+    
+        let commentContents = document.createElement( 'div' );
+        commentContents.classList.add( 'comment-content' );
+        commentContents.innerHTML = response.body;
+    
+        let comment = document.createElement( 'li' );
+        comment.setAttribute( 'data-created', response.created_at );
+        comment.setAttribute( 'data-author-avatar', response.user.avatar_url );
+        comment.setAttribute( 'data-user-url', response.user.url );
+    
+        comment.appendChild( user );
+        comment.appendChild( commentContents );
+        comment.appendChild( commentLink );
+    
+        return comment;
+    }
+    request.send();
+    </script>
+    
+    <hr>
+    
+    <div class="github-comments">
+        <h2>Comments</h2>
+        <ul id="gh-comments-list"></ul>
+        <p id="no-comments-found">No comments found for this article. Comments posted before 2019-09-15 are no longer available due to a system migration since I no longer use Disqus for comments.</p>
+        <p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/aristath/aristath.github.com/issues/5">this ticket</a>. Comments appear on this page instantly.</p>
+    </div><footer>
   <h2>Contact</h2>  leechanggong@gmail.com
 </footer>
 </div>
