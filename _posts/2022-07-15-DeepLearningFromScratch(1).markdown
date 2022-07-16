@@ -1,11 +1,12 @@
 ---
 layout: post
 type: theory
+comments: true
 ---
 
 # Deep Learning From the Scratch (1)
 
-<img src="{{site.url}}/assets/images/DL.jpeg" width="50%" height="500px" alt="mainImage">
+<img src="{{site.url}}/assets/images/DL.jpeg" width="50%" height="20%" alt="mainImage">
 
 Today, the word "deep learning" is literally found everywhere. The field of software engineering is not an exception. Semantic and syntatic features of source codes have been represented with very high accuracy using the deep learning algorithms.
 
