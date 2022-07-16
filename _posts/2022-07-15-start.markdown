@@ -1,6 +1,6 @@
 ---
 layout: post
-type: life
+category: life
 ---
 
 # Starting this blog..

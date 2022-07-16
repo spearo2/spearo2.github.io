@@ -1,6 +1,6 @@
 ---
 layout: post
-type: theory
+category: theory
 comments: true
 ---
 

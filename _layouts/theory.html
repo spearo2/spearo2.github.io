@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 {{ content }}
@@ -8,7 +8,7 @@ layout: default
 {%- if site.posts.size > 0 -%}
   <ul>
     {%- for post in site.posts -%}
-    {%- if post.type == "theory" -%}
+    {%- if post.category == "theory" -%}
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -17,3 +17,10 @@ layout: default
     {%- endfor -%}
   </ul>
 {%- endif -%}
+<script src="https://utteranc.es/client.js"
+repo="zackcglee/zackcglee.github.io"
+issue-term="pathname"
+theme="github-dark"
+crossorigin="anonymous"
+async>
+</script>
