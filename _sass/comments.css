@@ -1,0 +1,9 @@
+
+  #gh-comments-list li>a.user img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      box-shadow: 0 0 3px #aaa;
+      box-sizing: border-box;
+  }

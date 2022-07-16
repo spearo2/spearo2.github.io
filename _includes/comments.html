@@ -1,12 +1,12 @@
 <script>
-    const GH_API_URL = 'https://api.github.com/repos/zackcglee/zackcglee.github.io/issues/1/comments?client_id={{ site.data.settings.gh_api.ci }}&client_secret={{ site.data.settings.gh_api.cs }}';
+    const GH_API_URL = 'https://api.github.com/repos/zackcglee/zackcglee.github.io/issues/1/comments?per_page=100';
     
     let request = new XMLHttpRequest();
     request.open( 'GET', GH_API_URL, true );
     request.onload = function() {
         if ( this.status >= 200 && this.status < 400 ) {
             let response = JSON.parse( this.response );
-            log.console("1");
+
             for ( var i = 0; i < response.length; i++ ) {
                 document.getElementById( 'gh-comments-list' ).appendChild( createCommentEl( response[ i ] ) );
             }
@@ -41,7 +41,9 @@
     
         let comment = document.createElement( 'li' );
         comment.setAttribute( 'data-created', response.created_at );
-        comment.setAttribute( 'data-author-avatar', response.user.avatar_url );
+        let resized = response.user.avatar_url.replace( 'width=100', 's=32' );
+        comment.setAttribute( 'data-author-avatar', resized );
+        
         comment.setAttribute( 'data-user-url', response.user.url );
     
         comment.appendChild( user );
@@ -57,7 +59,8 @@
     
     <div class="github-comments">
         <h2>Comments</h2>
-        <ul id="gh-comments-list"></ul>
-        <p id="no-comments-found">No comments found for this article. Comments posted before 2019-09-15 are no longer available due to a system migration since I no longer use Disqus for comments.</p>
-        <p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/zackcglee/zackcglee.github.io/issues/1">this ticket</a>. Comments appear on this page instantly.</p>
+        <p id="leave-a-comment">Join the discussion on <a href="https://github.com/zackcglee/zackcglee.github.io/issues/1">this ticket</a>. Comments appear on this page instantly.</p>
+        
+            <ul id="gh-comments-list"></ul>
+        
     </div>

@@ -29,4 +29,17 @@
   --code-color-16: #1e90ff;
   --code-color-17: #800000;
   --code-color-18: #bbbbbb;
+  --img-width: 32px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--base-color);
+  margin-right: 0.5rem;
+}
+
+.comment-url {
+  margin-left:78%;
 }
