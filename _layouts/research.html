@@ -8,7 +8,7 @@ layout: page
 {%- if site.posts.size > 0 -%}
   <ul>
     {%- for post in site.posts -%}
-    {%- if post.category == "life" -%}
+    {%- if post.category == "research" -%}
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>

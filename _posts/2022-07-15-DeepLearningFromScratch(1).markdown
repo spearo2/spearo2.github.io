@@ -1,7 +1,6 @@
 ---
 layout: post
 category: theory
-comments: true
 ---
 
 # Deep Learning From the Scratch (1)

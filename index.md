@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
 
-# Zack CG Lee (Changgong Lee)'s blog
+# Zack CG(Chang Gong) Lee's Progress Report
 
 <img src="{{site.url}}/assets/images/YCZM.gif" width="200px" height="200px" alt="mainImage">
 
@@ -19,3 +19,5 @@ permalink: /
 - 2014 ~ 2015 : Greenfield Community College, U.S.A. - AA in Economics.
 - 2015 ~ 2016 : University of Massachussetts Amherst, U.S.A. - BA in Economics (Not completed).
 - 2021 ~ 2022 : Handong Global University, South Korea - BS in Information Technology and Global Management.
+
+## Please, leave comments at the top right comments tap for any discussion.
