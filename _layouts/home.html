@@ -5,3 +5,17 @@ layout: default
 {{ content }}
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
+<ul>
+  {%- assign i = 0 -%}
+  {%- for post in site.posts -%}
+  <li>
+    {%- if post > 5 -%}
+    {%- break -%}
+    {%- endif -%}
+    {%- assign date_format = "%Y-%m-%d" -%}
+    [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  </li>
+  {%- endfor -%}
+</ul>
+
+<h2>Please, leave comments at the top right comments tap for any discussion. </h2>
