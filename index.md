@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
 
-# Zack CG(Chang Gong) Lee's Progress Report
+# Zack CG(창공) Lee's Progress Report
 
 <img src="{{site.url}}/assets/images/YCZM.gif" width="200px" height="200px" alt="mainImage">
 
