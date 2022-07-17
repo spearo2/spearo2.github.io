@@ -1,7 +1,20 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 <header>
   <div class="menu">
-    <ul>
+    <div id="subscribe" class="subscribe-overlay">
+      <a class="subscribe-overlay-close" href="#"></a>
+      <div class="subscribe-overlay-content">
+          {% if site.logo %}
+              <img class="subscribe-overlay-logo" 
+                   src="{{ site.baseurl }}{{ site.logo }}" 
+                   alt="{{ site.title }}" />
+          {% endif %}
+          <h2 class="subscribe-overlay-title">Find Post</h2>
+          </p>
+          {% include subscribe-form.html placeholder="keyword" %}
+      </div>
+  </div>
+    <ul class="toolbar">
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}
