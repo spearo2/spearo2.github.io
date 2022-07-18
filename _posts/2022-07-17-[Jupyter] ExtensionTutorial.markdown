@@ -16,9 +16,9 @@ JupyterLab is the next generation UI for Jupyter Notebook.
 It is developed to replace Jupyter Notebook with more modular and extensible architecture.
 
 <img src="{{site.url}}/assets/images/research/notebook.png" width="50%" height="20%" alt="notebook">
-Original Notebook
+-Original Notebook-
 <img src="{{site.url}}/assets/images/research/lab.png" width="50%" height="20%" alt="lab">
-JupyterLab
+-JupyterLab-
 
 JupyterLab provides more interactive features such as npm based typescript support.
 
@@ -48,7 +48,7 @@ If Jupyter packages are not installed, you can do it by the following command
 
 Then you will see the red "Enable" button for searching and adding extensions.
 
-<img src="{{site.url}}/assets/images/research/searchEX1.png" width="20%" height="20%" alt="lab1>
+<img src="{{site.url}}/assets/images/research/searchEX1.png" width="40%" height="20%" alt="lab1">
 
 Here, you can install various extensions.
 Once you are done with the installation, it will ask you to reload the page. Once the page is reloaded, you can use the extenstions depending on the usage(mostly, there will be an added tab on the left side of the window).
@@ -65,9 +65,9 @@ Let's try with Git.
 JupyterLab has the minimum number of inner extensions so that it can be customized with extensions.
 
 Search for git, and you will see the following
-<img src="{{site.url}}/assets/images/research/searchEX2.png" width="20%" height="20%" alt="lab2">
+<img src="{{site.url}}/assets/images/research/searchEX2.png" width="40%" height="20%" alt="lab2">
 
 If you press install button, you will see the following alert window.
-<img src="{{site.url}}/assets/images/research/searchEX3.png" width="20%" height="20%" alt="lab3">
+<img src="{{site.url}}/assets/images/research/searchEX3.png" width="40%" height="20%" alt="lab3">
 
 This means that the back end extension is not installed.
