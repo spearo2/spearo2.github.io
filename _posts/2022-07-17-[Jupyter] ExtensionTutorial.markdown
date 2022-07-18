@@ -30,6 +30,12 @@ Here, we deal with JupyterLab because it allows various custom extensions.
 
 ## How to Install Extensions
 
+Before installing, let's check out two terms.
+
+labextension - front end extensions.
+serverextension - back end extensions.
+
+### Let's start with the labextension.
 
 Start JupyterLab with the following command.
 
@@ -46,3 +52,12 @@ Then you will see the red "Enable" button for searching and adding extensions.
 
 Here, you can install various extensions.
 Once you are done with the installation, it will ask you to reload the page. Once the page is reloaded, you can use the extenstions depending on the usage(mostly, there will be an added tab on the left side of the window).
+
+If an implemented extension is published, it can be viewed in this search bar.
+
+So, the labextension can be installed through the UI.
+On the other hand, the serverextensions are installed through CLI and also require restarting the JupyterLab.
+
+
+### How do we deal with both labextensions and serverextensions
+
