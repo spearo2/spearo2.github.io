@@ -61,3 +61,4 @@ On the other hand, the serverextensions are installed through CLI and also requi
 
 ### How do we deal with both labextensions and serverextensions
 
+<img src="{{site.url}}/assets/images/research/searchEX2.png" width="20%" height="20%" alt="lab">
