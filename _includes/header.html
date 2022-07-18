@@ -14,12 +14,7 @@
           {% include subscribe-form.html placeholder="keyword" %}
       </div>
   </div>
-    <ul class="toolbar"> <span class="command">root@zackcglee.github.io: /<span class="wave">~</span>$ cd
-      {%- if page.url != blank -%}
-      {%- page.url -%}
-      {%- else -%}
-      /
-      {%- endif -%}
+    <ul class="toolbar"> <span class="command">root@zackcglee.github.io: <span class="wave">~</span>$ cd
     </span>
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
