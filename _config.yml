@@ -24,6 +24,12 @@ listen_for_clients_preferred_style: true
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 url: "https://zackcglee.github.io"
 
@@ -40,3 +46,5 @@ defaults:
       comments: true
       share: true
       related: true
+
+    
