@@ -49,15 +49,15 @@
   width: 18%;
 }
 .toolbar {
-  margin-right: 35%;
+  margin-right: 0%;
 }
 .logo {
   width: 30px;
   height: 30px;
-  margin-right: 100%;
-  margin-left: 0;
+  margin-top: -60px;
   border-radius: 50%;
   background-color: var(--base-color);
+
 }
 .underline {
   width:1%;
@@ -68,6 +68,8 @@
   background-color: #000;
   border-color: #000;
   position:absolute;
-  z-index: 9999;
-  margin-bottom: 10%;
+}
+
+.subscribe-overlay-content {
+  margin-bottom: -2%;
 }

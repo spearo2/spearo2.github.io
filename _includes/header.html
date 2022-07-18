@@ -15,12 +15,6 @@
       </div>
   </div>
     <ul class="toolbar">
-      <li onclick="location.herf='http://github.com/zackcglee/zackcglee'" class="logo"><button class="but">
-      <a herf='https://github.com/zackcglee/zackcglee' class="user">
-        <img class="logo" src="{{ site.baseurl }}/assets/images/github_icon.png">
-        </button>
-      </a>
-      </li>
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}

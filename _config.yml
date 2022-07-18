@@ -16,7 +16,7 @@ header_pages:
   - life.md
   - comments.md
 
-footer: '<h2>Contact</h2>  leechanggong@gmail.com'
+footer: '<h2 class="contact">Contact</h2>  leechanggong@gmail.com'
 
 style: hacker
 
