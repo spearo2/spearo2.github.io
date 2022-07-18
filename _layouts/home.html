@@ -7,7 +7,7 @@ layout: default
 
 <ul>
   {%- assign i = 0 -%}
-  {%- for post in site.posts -%}
+  {%- for post in site.posts reversed -%}
   <li>
     {%- if post > 5 -%}
     {%- break -%}
@@ -17,5 +17,9 @@ layout: default
   </li>
   {%- endfor -%}
 </ul>
+
+<br>
+<h2> Zack's Schedule </h2>
+{%- include calander.html -%}
 
 <h2>Please, leave comments at the top right comments tap for any discussion. </h2>
