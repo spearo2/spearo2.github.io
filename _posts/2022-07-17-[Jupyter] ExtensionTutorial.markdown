@@ -39,11 +39,11 @@ serverextension - back end extensions.
 
 Start JupyterLab with the following command.
 
-$ jupyter lab
+`$ jupyter lab`
 
 If Jupyter packages are not installed, you can do it by the following command
 
-```$ pip install jupyterlab```
+`$ pip install jupyterlab`
 
 
 Then you will see the red "Enable" button for searching and adding extensions.
@@ -69,6 +69,12 @@ Search for git, and you will see the following
 <img src="{{site.url}}/assets/images/research/searchEx2.png" width="30%" height="15%" alt="lab2">
 
 If you press install button, you will see the following alert window.
-<img src="{{site.url}}/assets/images/research/searchEx3.png" width="50%" height="25%" alt="lab3">
+<img src="{{site.url}}/assets/images/research/searchEx3.png" width="30%" height="15%" alt="lab3">
 
 This means that the back end extension is not installed.
+
+Follow the instructied commands
+
+```$ pip install jupyterlab-git
+$ conda install -c conda-forge jupyterlab-git```
+
