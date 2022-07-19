@@ -69,7 +69,7 @@ Search for git, and you will see the following
 <img src="{{site.url}}/assets/images/research/searchEx2.png" width="30%" height="15%" alt="lab2">
 
 If you press install button, you will see the following alert window.
-<img src="{{site.url}}/assets/images/research/searchEx3.png" width="50%" height="20%" alt="lab3">
+<img src="{{site.url}}/assets/images/research/searchEx3.png" width="400px" height="200px" alt="lab3">
 
 This means that the back end extension is not installed.
 
