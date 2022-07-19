@@ -16,9 +16,9 @@ Details can be found at <a href="https://www.youtube.com/watch?v=_ZexgrCGttU">ht
 JupyterLab is the next generation UI for Jupyter Notebook.
 It is developed to replace Jupyter Notebook with more modular and extensible architecture.
 
-<img src="{{site.url}}/assets/images/research/notebook.png" width="50%" height="20%" alt="notebook">
+<img src="{{site.url}}/assets/images/research/notebook.png" width="30%" height="20%" alt="notebook">
 -Original Notebook-
-<img src="{{site.url}}/assets/images/research/lab.png" width="50%" height="20%" alt="lab">
+<img src="{{site.url}}/assets/images/research/lab.png" width="30%" height="20%" alt="lab">
 -JupyterLab-
 
 JupyterLab provides more interactive features such as npm based typescript support.
@@ -49,7 +49,7 @@ If Jupyter packages are not installed, you can do it by the following command
 
 Then you will see the red "Enable" button for searching and adding extensions.
 
-<img src="{{site.url}}/assets/images/research/searchEx1.png" width="40%" height="20%" alt="lab1">
+<img src="{{site.url}}/assets/images/research/searchEx1.png" width="30%" height="20%" alt="lab1">
 
 Here, you can install various extensions.
 Once you are done with the installation, it will ask you to reload the page. Once the page is reloaded, you can use the extenstions depending on the usage(mostly, there will be an added tab on the left side of the window).
@@ -76,10 +76,11 @@ This means that the back end extension is not installed.
 
 Follow the instructied commands
 
-```
-$ pip install jupyterlab-git
-$ conda install -c conda-forge jupyterlab-git
-```
+
+`$ pip install jupyterlab-git`
+`$ conda install -c conda-forge jupyterlab-git`
+
+
 If you haven't already installed conda, please visit <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html</a> to find out detailed instructions.
 
 Also, don't forget to switch your virtual environment if necessary.
