@@ -75,6 +75,24 @@ This means that the back end extension is not installed.
 
 Follow the instructied commands
 
-```$ pip install jupyterlab-git
-$ conda install -c conda-forge jupyterlab-git```
+```
+$ pip install jupyterlab-git
+$ conda install -c conda-forge jupyterlab-git
+```
+If you haven't already installed conda, please visit <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html</a> to find out detailed instructions.
 
+Also, don't forget to switch your virtual environment if necessary.
+
+On a successful installation, you will see the following output on console.
+
+<img src="{{site.url}}/assets/images/research/searchEx4.png" width="900px" height="200px" alt="lab4">
+
+To pick it up the changes made, turn off the running lab and use the following command additionally.
+
+`$ jupyter lab build`
+
+Then, run it back on by
+
+`$ jupyter lab`
+
+<img src="{{site.url}}/assets/images/research/searchEx5.png" width="30%" height="30%" alt="lab5">
