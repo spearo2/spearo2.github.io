@@ -65,7 +65,7 @@ Let's try with Git.
 JupyterLab has the minimum number of inner extensions so that it can be customized with extensions.
 
 Search for git, and you will see the following
-<img src="{{site.url}}/assets/images/research/searchEx2.png" width="40%" height="20%" alt="lab2">
+<img src="{{site.url}}/assets/images/research/searchEx2.png" width="30%" height="15%" alt="lab2">
 
 If you press install button, you will see the following alert window.
 <img src="{{site.url}}/assets/images/research/searchEx3.png" width="40%" height="20%" alt="lab3">
