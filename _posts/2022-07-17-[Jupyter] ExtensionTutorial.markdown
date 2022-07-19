@@ -4,6 +4,7 @@ category: research
 ---
 
 # Jupyter Notebook Extension Tutorial
+# 1. Basic Usage
 
 As I was assigned to develop a code suggestion tool for JupyterLab by Korea Institute of Science and Technology (KISTI), this post summarizes the tutorial for building an extention.
 
@@ -96,3 +97,5 @@ Then, run it back on by
 `$ jupyter lab`
 
 <img src="{{site.url}}/assets/images/research/searchEx5.png" width="30%" height="30%" alt="lab5">
+
+Then, Tada. You have Git interface installed on your JupyterLab.
