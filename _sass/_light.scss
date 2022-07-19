@@ -54,20 +54,14 @@
 .logo {
   width: 30px;
   height: 30px;
-  margin-top: -60px;
   border-radius: 50%;
   background-color: var(--base-color);
-
-}
-.underline {
-  width:1%;
-  margin-right: 100%;
 }
 
-.but {
-  background-color: #000;
-  border-color: #000;
-  position:absolute;
+.contact {
+  margin-top:-0.2%;
+  margin-bottom: 1.5%;
+  text-align: right;
 }
 
 .subscribe-overlay-content {

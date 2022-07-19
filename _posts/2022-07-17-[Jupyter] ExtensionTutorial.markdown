@@ -7,7 +7,7 @@ category: research
 
 As I was assigned to develop a code suggestion tool for JupyterLab by Korea Institute of Science and Technology (KISTI), this post summarizes the tutorial for building an extention.
 
-Details can be found at <a herf="https://www.youtube.com/watch?v=_ZexgrCGttU">https://www.youtube.com/watch?v=_ZexgrCGttU</a>.
+Details can be found at <a href="https://www.youtube.com/watch?v=_ZexgrCGttU">https://www.youtube.com/watch?v=_ZexgrCGttU</a>.
 
 ## What is JupyterLab?
 
@@ -26,7 +26,7 @@ For the original Notebook, it is based on kernel that includes various compilers
 
 Here, we deal with JupyterLab because it allows various custom extensions.
 
-<a herf="https://github.com/jupyterlab/jupyterlab">This is the repo for the jupyterlab</a>
+<a href="https://github.com/jupyterlab/jupyterlab">This is the repo for the jupyterlab</a>
 
 ## How to Install Extensions
 
@@ -39,7 +39,7 @@ serverextension - back end extensions.
 
 Start JupyterLab with the following command.
 
-```$ jupyter lab```
+$ jupyter lab
 
 If Jupyter packages are not installed, you can do it by the following command
 
@@ -62,12 +62,13 @@ On the other hand, the serverextensions are installed through CLI and also requi
 ### How do we deal with both labextensions and serverextensions?
 
 Let's try with Git.
+
 JupyterLab has the minimum number of inner extensions so that it can be customized with extensions.
 
 Search for git, and you will see the following
 <img src="{{site.url}}/assets/images/research/searchEx2.png" width="30%" height="15%" alt="lab2">
 
 If you press install button, you will see the following alert window.
-<img src="{{site.url}}/assets/images/research/searchEx3.png" width="40%" height="20%" alt="lab3">
+<img src="{{site.url}}/assets/images/research/searchEx3.png" width="50%" height="25%" alt="lab3">
 
 This means that the back end extension is not installed.

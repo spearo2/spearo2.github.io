@@ -1,8 +1,4 @@
 <footer>
   {{ site.footer }}
-  <li onclick="location.herf='http://github.com/zackcglee/zackcglee'" class="logo">
-    <a herf='https://github.com/zackcglee/zackcglee'>
-      <img class="logo" src="{{ site.baseurl }}/assets/images/github_icon.png">Repository
-    </a>
-  </li>
+  {%- include repo.html -%}
 </footer>

@@ -8,9 +8,8 @@ category: theory
 <img src="{{site.url}}/assets/images/DL.jpeg" width="50%" height="20%" alt="mainImage">
 
 Today, the word "deep learning" is literally found everywhere. The field of software engineering is not an exception. Semantic and syntatic features of source codes have been represented with very high accuracy using the deep learning algorithms.
-
-<a herf="https://dl.acm.org/doi/abs/10.1145/3395363.3397369">CoCoNuT: combining context-aware neural translation models using ensemble for program repair</a>
-<a herf="https://ieeexplore.ieee.org/abstract/document/8812062">A Novel Neural Source Code Representation Based on Abstract Syntax Tree</a>
+[CoCoNuT: combining context-aware neural translation models using ensemble for program repair](https://dl.acm.org/doi/abs/10.1145/3395363.3397369)
+[A Novel Neural Source Code Representation Based on Abstract Syntax Tree](https://ieeexplore.ieee.org/abstract/document/8812062)
 
 Above two papers are good examples of the source code representation via the deep learning algorithm. CoCoNuT uses a neural translation model for the automatic program repair (APR). On the other hand, The next paper (ASTNN, shortly) uses a bidirectional reccurent neural network to represent an abstract syntax tree (AST).
 
