@@ -3,7 +3,7 @@ layout: post
 category: research
 ---
 
-# Jupyter Notebook Extension Tutorial
+# JupyterLab Extension Tutorial
 # 1. Basic Usage
 
 As I was assigned to develop a code suggestion tool for JupyterLab by Korea Institute of Science and Technology (KISTI), this post summarizes the tutorial for building an extention.
@@ -81,7 +81,7 @@ Follow the instructied commands
 `$ conda install -c conda-forge jupyterlab-git`
 
 
-If you haven't already installed conda, please visit <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html</a> to find out detailed instructions.
+If you haven't already installed conda, please visit [https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) to find out detailed instructions.
 
 Also, don't forget to switch your virtual environment if necessary.
 
@@ -93,10 +93,14 @@ To pick it up the changes made, turn off the running lab and use the following c
 
 `$ jupyter lab build`
 
+** Make sure you close the JupyterLab tab from terminal to prevent any racce conditions **
+
 Then, run it back on by
 
 `$ jupyter lab`
 
 <img src="{{site.url}}/assets/images/research/searchEx5.png" width="30%" height="30%" alt="lab5">
 
-Then, Tada. You have Git interface installed on your JupyterLab.
+Tada. You have Git interface installed on your JupyterLab.
+
+In next post, we will start making an actual extension of our own.
