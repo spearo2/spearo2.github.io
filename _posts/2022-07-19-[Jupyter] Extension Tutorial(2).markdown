@@ -20,7 +20,8 @@ Let's try to create an extention from an existing repository.
 
 
 This method below is out dated. I am keeping this alive just in case. Please, skip this part.
----------------------------------------------------------------------------------
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Move to your working directory and run the following command.
 `$ cookiecutter https://github.com/jupyterlab/extension-cookiecutter-ts`
 
@@ -33,7 +34,7 @@ Values within the brackets are the default values. I just setted author name and
 Then a repo will be cloned with your configuration as below
 
 <img src="{{site.url}}/assets/images/research/cookie2.png" width="auto" height="auto" alt="cookie2">
----------------------------------------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 For JupyterLab 3.0 and above, I found this another tutorial repo.
 <a href="https://github.com/marthacryan/developing-extensions-tutorial">https://github.com/marthacryan/developing-extensions-tutorial</a>
