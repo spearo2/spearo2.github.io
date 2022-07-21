@@ -19,7 +19,7 @@ So this paper is only cited 83 times. Considering that it was published 2015 and
 
 I am not going to deep into the environmental settings related to stem cells as I am not good enough to explain this stuff, so if you are interested please visit the above link. This is going to be a short review of the paper I guess.
 
-<img src="{{site.url}}/assets/images/paper/cig1.png" width="30$" height="30$" alt="cig1">
+<img src="{{site.url}}/assets/images/paper/cig1.png" width="auto" height="auto" alt="cig1">
 
 As the Fig1. shows, this paper discovers that both electronic ciggarretts and actual tobacco effects the development of the development of heart. 
 
@@ -35,7 +35,7 @@ Although, it is shown that the E-ciggarretts showed the drastically low risk in 
 
 ## Basically saying that e-ciggarretts cannot be a safer alternative.
 
-In this experiment, vapors with a cartomizer fluid (just the vapor we all know).
+In this experiment, vapors with a cartomizer fluid (just the vapor we all know) are used.
 
 However, this does not deal with the new generation of the E-ciggarretts like Juuls and IQOS.
 

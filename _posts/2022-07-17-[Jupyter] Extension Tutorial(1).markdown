@@ -9,6 +9,7 @@ category: research
 As I was assigned to develop a code suggestion tool for JupyterLab by Korea Institute of Science and Technology (KISTI), this post summarizes the tutorial for building an extention.
 
 Details can be found at <a href="https://www.youtube.com/watch?v=_ZexgrCGttU">https://www.youtube.com/watch?v=_ZexgrCGttU</a>.
+(This link is connected to the tutorial of outdated version. There seems to be a lot of changes in 3.0 update)
 
 ## What is JupyterLab?
 
