@@ -1,6 +1,6 @@
 ---
 layout: post
-category: life
+category: research
 ---
 
 # Yay, its been 10 days
