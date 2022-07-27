@@ -9,11 +9,12 @@ layout: default
   {%- assign i = 0 -%}
   {%- for post in site.posts -%}
   <li>
-    {%- if post > 5 -%}
+    {%- assign date_format = "%Y-%m-%d" -%}
+    {% assign i = i | plus: 1 %}
+    [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    {%- if i > 4 -%}
     {%- break -%}
     {%- endif -%}
-    {%- assign date_format = "%Y-%m-%d" -%}
-    [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
   </li>
   {%- endfor -%}
 </ul>
