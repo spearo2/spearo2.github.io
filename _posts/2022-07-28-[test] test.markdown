@@ -1,6 +1,6 @@
 ---
 layout: post
-category: life
+category: theory
 ---
 
 # This is temp
