@@ -68,8 +68,7 @@ I could take a walk or a nap. I could play a game or I could read something inte
 I just did not know this becuase I have been just siting at the smoking area watching facebook or instagram reels.
 
 
-
-## Overall
+## Overall...
 
 I gained about 7kg so I started my diet as well today.
 I started coughing a lot these days.
