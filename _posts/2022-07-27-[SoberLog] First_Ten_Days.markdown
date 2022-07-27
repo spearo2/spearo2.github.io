@@ -1,11 +1,11 @@
 ---
 layout: post
-category: research
+category: life
 ---
 
 # Yay, its been 10 days
 
-<img src="{{site.url}}/assets/images/life/sober_cig2.png/" width="auto" height="auto" alt="cig2">
+<img src="{{site.url}}/assets/images/life/sober_cig2.png" width="auto" height="auto" alt="cig2">
 
 since I decided to quit nicotine and guess what,
 It is going great.
@@ -13,7 +13,7 @@ It is going great.
 This is an app called <a href="https://iamsober.com/">I am sober</a>. 
 This is the daily notes I recorded. I captured it cause the way my mood fluctuates every day is just hilarious.
 
-<img src="{{site.url}}/assets/images/life/sober_cig1.jpeg/" width="auto" height="auto" alt="cig1">
+<img src="{{site.url}}/assets/images/life/sober_cig1.jpeg" width="auto" height="auto" alt="cig1">
 
 ## Honestly, I am still not 100% sure if I will successfully quit. So it is perhaps too early to say anything about quitting ciggarretts.
 
