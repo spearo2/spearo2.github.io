@@ -13,7 +13,7 @@ It is going great.
 This is an app called <a href="https://iamsober.com/">I am sober</a>. 
 This is the daily notes I recorded. I captured it cause the way my mood fluctuates every day is just hilarious.
 
-<img src="{{site.url}}/assets/images/life/sober_cig1.jpeg" width="40%" height="40%" alt="cig1">
+<img src="{{site.url}}/assets/images/life/sober_cig1.jpeg" width="20%" height="10%" alt="cig1">
 
 ## Honestly, I am still not 100% sure if I will successfully quit. So it is perhaps too early to say anything about quitting ciggarretts.
 
