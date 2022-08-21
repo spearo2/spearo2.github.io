@@ -29,11 +29,11 @@ Then, you will see below questions about the extension configuration.
 
 Values within the brackets are the default values. I just setted author name and email address for now.
 
-Then a repo will be cloned with your configuration as below
+Then a directory will be created as follows:
 
 <img src="{{site.url}}/assets/images/research/cookie2.png" width="auto" height="auto" alt="cookie2">
 
-
+If you wish to make a git repo, you should have it prepared beforehand.
 
 You can create a new github repo based on the created directory.
 
