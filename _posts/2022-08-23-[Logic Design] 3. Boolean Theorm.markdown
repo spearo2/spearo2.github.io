@@ -1,6 +1,6 @@
 ---
-laYout: post
-categorY: theorY
+layout: post
+category: theory
 ---
 
 # Boolean Theorem
