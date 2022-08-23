@@ -43,7 +43,7 @@ Ex       2 | 13             x2 | 0.125
             -----               -------
             1  ...1            0    ...1
 
-    13<sub>10</sub> = 101<sub>2</sub>     0.125<sub>10</sub> = 0.01<sub>2</sub>
+13<sub>10</sub> = 101<sub>2</sub>     0.125<sub>10</sub> = 0.01<sub>2</sub>
 
 
 #### Type 1-3. octal number system
@@ -67,15 +67,15 @@ Hexadecimal numbers are useful because it is easy to convert from binary, decima
 
 Ex) 2AF<sub>16</sub> = 2 x 16<sup>2</sup> + 10 x 16<sup>1</sup> + 15 x 16<sup>0</sup> = 687<sub>10</sub>
 
-    16 | 423            
-        -----          
-    16 |  26  ...7      
-        -----         
-            1   ...10      
+16 | 423            
+    -----          
+16 |  26  ...7      
+    -----         
+      1   ...10      
 
-    423<sub>10</sub> = 1A7<sub>16</sub>
+423<sub>10</sub> = 1A7<sub>16</sub>
 
-    1011 1010 0111<sub>2</sub> = BA7<sub>16</sub>                   
+1011 1010 0111<sub>2</sub> = BA7<sub>16</sub>                   
 
 ### Type 2. Fixed-point number
 
@@ -191,4 +191,4 @@ Also, Expressions are usually long, therefore requires more computation.
 
 ### Type 5. ASCII, American Standard Code for Information Interchange
 
-<img src="{{site.url}}/assets/images/theory/ld3.png" width="auto" height="auto" alt="ld3">
+<img src="{{site.url}}/assets/images/theory/ld3.jpeg" width="auto" height="auto" alt="ld3">
