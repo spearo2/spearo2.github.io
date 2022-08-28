@@ -143,6 +143,7 @@ significand (S) is 1 bit, exponent is 8 bits, and fraction is 55 bits.
 
 For example, if it is a single precision floating-point representation and each parts are as follows,
 
+
 <img src="{{site.url}}/assets/images/theory/ld2.png" width="auto" height="auto" alt="ld2">
 
 
