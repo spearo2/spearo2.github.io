@@ -22,13 +22,13 @@ What does this equation really mean?
 It is not a simple question.
 
 ### Math is a subject of abstractions.
-<img src="{{site.url}}/assets/images/theory/AI2.png" width="auto" height="auto" alt="AI2">
+<img src="{{site.url}}/assets/images/theory/AI2.png" width="200" height="200" alt="AI2">
 One of the easiest way to express the equation is using 2-D vector space.
 From here we can see that the co-efficients determine the direction of the equation.
 
 let's draw an another linear equation on the same plane.
 `2x + y = 10`
-<img src="{{site.url}}/assets/images/theory/AI3.png" width="auto" height="auto" alt="AI3">
+<img src="{{site.url}}/assets/images/theory/AI3.png" width="200" height="200" alt="AI3">
 
 The point where two lines meet, we call this a solution.
 
