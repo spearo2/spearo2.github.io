@@ -49,12 +49,12 @@ So, this will be a linear system
 The solutions can be expressed as a solution set as `(10/3, -1/6)`
 
 This system then can also be expressed as a matrix using the co-efficients.
----    ---
+---       ---
 |1 2  3 |
 |2 1  10|
----    ---
+---       ---
 
-Now each rows of the matrix is <span style="text-decoration:underline">a vector</span> which represents the movement of the variable.
+Now each rows of the matrix is <span style="text-decoration:underline">a vector</span> which represents the movement of the variable, and each row represents <span style="text-decoration:underline">an equation</span>.
 
 Machine learning is a process of making model.
 And this system that creates a solution set is equivalent to models in machine learning.
@@ -69,13 +69,13 @@ Then we can make an equation: `aT + bR = R`
 This, however, is data just for today.
 What if we have a record for while year?
 
-Then we will get a system that has 365 rows which means 365 vectors with a size of 2.
+Then we will get a system that has 365 rows which means vector size of 365.
 
 Now the machine learning is a process of finding that system or model.
 More explicitly, finding out the co-efficients of each equation in the system.
 
 Machine Learning is a subject of methodologies to find a way to find approximated co-efficients.
-In this way, the model we made out of the system can eventually predict whether it rains tomorrow. And this is done based on the data.
+In this way, the system or the model we made out of the system we discussed basically predicts whether it rains tomorrow. And this is done based on the data.
 
 Therefore, it is quite clear what are important factors in machine learning.
 1) Choosing a right metric/ variable/ or dataset.
