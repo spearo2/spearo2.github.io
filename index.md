@@ -15,9 +15,8 @@ permalink: /
 - Yoon-ho Choi, Chang-gong Lee, Jaechang Nam, An Empirical Study on Defects in Open Source Artificial Intelligence Applications, in Journal of KIISE, Korea (The extesion of the KCSE 2022 paper) [[pdf]](https://drive.google.com/file/u/2/d/1JxLtQitmTOnQ80IYzNSTeORfbZz1MppB/view?usp=share_link")
 
 ## Contributions
-
 - 2021 ~ 2022 : [Korea Unification Bigdata Center (KUBIC)](https://kubic.handong.edu/) Handong Global University, South Korea [ (Advisor: Prof. Jaechang Nam)
-
+  
 - 2022 ~ 2023 : Research on methods for ML model development, access, and code quality assurance, [Similar Code Suggestion (Simic)](https://github.com/ISEL-HGU/simic) Korea Institute of Science and Technology Information and Handong Global University, South Korea [ (Advisor: Prof. Jaechang Nam)
 
 ## Educations
