@@ -68,6 +68,7 @@ GEM
     unicode-display_width (1.8.0)
 
 PLATFORMS
+  arm64-darwin-22
   universal-darwin-21
 
 DEPENDENCIES
@@ -77,4 +78,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   2.3.18
+   2.4.4
