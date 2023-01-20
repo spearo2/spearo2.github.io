@@ -54,6 +54,19 @@ So, I just breathe this thing whenever I crave for a cig.
 And.. I guess it works.
 Just buy mint flavor and just hold it in your mouth for hours and hours.
 
+## Pros
+
+- It does not emit visible smoke
+- It does not smell bad
+- It probably does nothing to your body
+- If you keep inhaling it, it kindda wakes you up similar to how cigs do wake you up.
+- Smoke detectors won't know you fuming. Meaning that you can smoke this anywhere you want if people around you are okay with it.
+- No fire, no burning, no carbon emission, no nicotine, no tar, no smell, no ash, no nothing, just the wood stick and the air.
+
+## Cons
+- It is expensive if you are not in the states.
+- It still does smell like herbs. So, if you are in a closed space with someone, they will know you are fuming.
+
 ## your throat will be sore that you will not be able to feel like smoking for a while.
 
 I will try this for awhile and see if this thing actually finishes my 20 years of smoking carrer.
