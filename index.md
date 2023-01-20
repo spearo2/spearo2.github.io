@@ -12,7 +12,13 @@ permalink: /
 
 ## Publications
 
-- Yoon-ho Choi, Chang-gong Lee, Jaechang Nam, An Empirical Study on Defects in Open Source Artificial Intelligence Applications, in Journal of KIISE, Korea (The extesion of the KCSE 2022 paper) [[pdf]](https://drive.google.com/file/u/2/d/1JxLtQitmTOnQ80IYzNSTeORfbZz1MppB/view?usp=share_link")
+### International Publications
+- I want one too XD
+
+### Domestic Publications
+- Yoon-ho Choi, Chang-gong Lee, Jaechang Nam, <strong>An Empirical Study on Defects in Open Source Artificial Intelligence Applications</strong>, in Journal of KIISE, Korea (The extesion of the KCSE 2022 best paper award) [[pdf]](https://drive.google.com/file/u/2/d/1JxLtQitmTOnQ80IYzNSTeORfbZz1MppB/view?usp=share_link")
+- Changgong Lee, Yeawon Na, Yoonho Choi, Gunwoo Lee, Myungseok Choi and Jaechang
+, <strong>Analysis of Code Change Based on Edit Script of Abstract Syntax Tree</strong>, in Proceedings of Korea Conference on Software Engineering (KCSE2023), Korea
 
 ## Contributions
 - 2021 ~ 2022 : [Korea Unification Bigdata Center (KUBIC)](https://kubic.handong.edu/) Handong Global University, South Korea (Advisor: Prof. Jaechang Nam)
