@@ -10,12 +10,13 @@ permalink: /
 
 ### For our neighbors and community.
 
+## Research Interests
+- Software Engineering
+- Programming Language Theory
+- Change Representation
+- Change Automation
+
 ## Publications
-
-### International Publications
-- I want one XD
-
-### Domestic Publications
 - Yoon-ho Choi, Chang-gong Lee, Jaechang Nam, <strong>An Empirical Study on Defects in Open Source Artificial Intelligence Applications</strong>, in Journal of KIISE, Korea (The extesion of the KCSE 2022 best paper award) [[pdf]](https://drive.google.com/file/u/2/d/1JxLtQitmTOnQ80IYzNSTeORfbZz1MppB/view?usp=share_link")
 - Changgong Lee, Yeawon Na, Yoonho Choi, Gunwoo Lee, Myungseok Choi and Jaechang Nam
 , <strong>Analysis of Code Change Based on Edit Script of Abstract Syntax Tree</strong>, in Proceedings of Korea Conference on Software Engineering (KCSE2023), Korea [[pdf]]((https://drive.google.com/file/d/186PvZqiqe50WJ5rN-8ITsC4TIGz_Ivrq/view?usp=share_link))
