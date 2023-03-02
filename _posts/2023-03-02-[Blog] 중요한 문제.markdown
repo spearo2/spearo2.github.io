@@ -4,7 +4,7 @@ category: life
 ---
 # Reflection after reading you and your research by Richard Hamming.
 
-## Find the article [here](./assets/docs/your_research.pdf)
+## Find the article [here]({{site.url}}/assets/docs/your_research.pdf)
 
 연구자는 문제를 해결하는 사람이 아니라 문제를 찾고 정의하는 사람들이라고 생각한다. 해밍은 성공한 연구자의 조건 중 하나로 얼마나 중요한 문제를 어떻게 고민하고 있는지에 대해 말한다. 그는 문제의 중요함을 공격 단서의 유무로 정의한다.  여기에서 한발 더 나아가 해밍의 깨닳음을 해아려 보자면 성공한 연구자란 어떠한 문제에 대해 존재하는 작은 공격의 실마리를 찾고 끈질기게 물고 늘어져 결국 정복하는 사람이 아닐까? 
 
