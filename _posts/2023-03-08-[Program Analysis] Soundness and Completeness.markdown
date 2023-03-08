@@ -27,19 +27,19 @@ When we talk about the program analysis, it can be divided into two categories: 
 
 Completeness is one of corectness indexes for program analysis. <br>
 Let's define a complete program. <br>
-A complete program is a program that can prove anything that's right. <br>
-On the other hand, A complete program cannot prove anything that's wrong. <br>
+A complete method is a method that can prove anything that's right. <br>
+On the other hand, a complete method cannot prove that a program does not have defects. <br>
 
 For example, testing as one of the dynamic analysis methods is a complete method. <br>
-If a program passes all the tests, then it is correct. <br>
-However, if a program fails a test, then it is not necessarily wrong. <br>
+If a program passes all the tests, then we can say that that program satisfies the test conditions. <br>
+However, even if a program passes all test cases given, it is not necessarily bugless. <br>
 
 ## Soundness (static analysis)
 
 Soundness is another one
-A sound program is a program that cannot prove anything that's wrong. <br>
+A sound method is a method that cannot prove anything that's wrong. <br>
 Meaning that it can only prove things that are right. <br>
-Which also means that if it says that a program is correct, it can only be either false positive or true negative. <br>
+Which also means that if it says that a program has a bug, it can only be either false positive or true postive. <br>
 Most of the static analysis methods are sound, meaning that it can generate false alarms, yet it literally detects everything without a miss. <br>
 
 The following figure would explain more intuitively. <br>
