@@ -19,13 +19,13 @@ One line edited in that massive lines of source code can possibly cause a bug. <
 Now, if that change is BIC (bug inducing commit), how can we find it? <br>
 What is making this difficult is that this change could affect thousands of lines of code. <br><br>
 I think that pretty much explain why program analysis is important. <br>
-When we talk about the correctness of program analysis, it can be divided into two categories: <br>
+When we talk about the program analysis, it can be divided into two categories: <br>
 1. Dynamic Analysis<br>
 2. Static Analysis<br>
 
 ## Completeness (dynamic analysis)
 
-Completeness is one of software quality indexes. <br>
+Completeness is one of corectness indexes for program analysis. <br>
 Let's define a complete program. <br>
 A complete program is a program that can prove anything that's right. <br>
 On the other hand, A complete program cannot prove anything that's wrong. <br>
