@@ -1,6 +1,6 @@
 ---
 layout: post
-category: paper
+category: research
 ---
 
 # 소프트웨어 면역체계
