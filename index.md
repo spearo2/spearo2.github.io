@@ -11,15 +11,15 @@ permalink: /
 ### For our neighbors and community.
 
 ## Research Interests
-- Software Engineering
 - Programming Language Theory
 - Change Representation
 - Change Automation
+- Patch Transplantation
 
 ## Publications
-- Yoon-ho Choi, Chang-gong Lee, Jaechang Nam, <strong>An Empirical Study on Defects in Open Source Artificial Intelligence Applications</strong>, in Journal of KIISE, Korea (The extesion of the KCSE 2022 best paper award) [[pdf]](https://drive.google.com/file/u/2/d/1JxLtQitmTOnQ80IYzNSTeORfbZz1MppB/view?usp=share_link")
+- Yoon-ho Choi, Chang-gong Lee, Jaechang Nam, <strong>An Empirical Study on Defects in Open Source Artificial Intelligence Applications</strong>, in Journal of KIISE, Korea (The extesion of the KCSE 2022 best paper award) [[pdf]]({{site.url}}/assets/docs/ML_empirical_study.pdf)
 - Changgong Lee, Yeawon Na, Yoonho Choi, Gunwoo Lee, Myungseok Choi and Jaechang Nam
-, <strong>Analysis of Code Change Based on Edit Script of Abstract Syntax Tree</strong>, in Proceedings of Korea Conference on Software Engineering (KCSE2023), Korea [[pdf]]((https://drive.google.com/file/d/186PvZqiqe50WJ5rN-8ITsC4TIGz_Ivrq/view?usp=share_link))
+, <strong>Analysis of Code Change Based on Edit Script of Abstract Syntax Tree</strong>, in Proceedings of Korea Conference on Software Engineering (KCSE2023), Korea [[pdf]]({{site.url}}/assets/docs/edit_script_analysis.pdf)
 
 ## Contributions
 - 2021 ~ 2022 : [Korea Unification Bigdata Center (KUBIC)](https://kubic.handong.edu/) Handong Global University, South Korea (Advisor: Prof. Jaechang Nam)

@@ -1,7 +1,3 @@
----
-layout: post
-category: theory
----
 
 This is temporary post for later modifications.
 

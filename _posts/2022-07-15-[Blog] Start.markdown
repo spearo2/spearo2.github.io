@@ -1,7 +1,4 @@
----
-layout: post
-category: life
----
+
 
 # Starting this blog..
 

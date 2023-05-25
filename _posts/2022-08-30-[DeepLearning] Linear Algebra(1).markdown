@@ -1,7 +1,4 @@
----
-layout: post
-category: theory
----
+
 
 I have surveyed, researched, experimented machine learning, but I have not found anyone explaining the most basic idea what it is.
 

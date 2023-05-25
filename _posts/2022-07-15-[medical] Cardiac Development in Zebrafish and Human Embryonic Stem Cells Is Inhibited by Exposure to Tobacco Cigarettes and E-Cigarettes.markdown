@@ -1,7 +1,4 @@
----
-layout: post
-category: paper
----
+
 
 # Cardiac Development in Zebrafish and Human Embryonic Stem Cells Is Inhibited by Exposure to Tobacco Cigarettes and ECigarettes
 
