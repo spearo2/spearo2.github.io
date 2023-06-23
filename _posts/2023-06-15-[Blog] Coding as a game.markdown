@@ -1,6 +1,6 @@
 ---
 layout: post
-category: life
+category: research
 ---
 
 # Coding as a game
