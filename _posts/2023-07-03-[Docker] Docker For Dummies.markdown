@@ -29,9 +29,9 @@ If you want to build an image, you could build it from the scratch, or you could
 Building an image is done by creating a `DockerFile`
 
 The following example shows how to make the Dockerfile
-<img src="{{site.url}}/assets/images/dev/docker1.png" style="border:white;" width="500" height="300" alt="docker1"><br>
+<img src="{{site.url}}/assets/images/dev/docker1.png" style="border:white;" width="500" height="auto" alt="docker1"><br>
 
-You need to know three commands<br>
+You need to know these commands<br>
 ```
 From --> pull the base image (in the above example, I pulled the empty ubuntu OS image)
 ENV --> set the environment variable
