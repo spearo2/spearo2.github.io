@@ -43,17 +43,51 @@ So, yea. You need to know how to write shell commands to write a Dockerfile<br>
 
 If this is written, you can start building the image by the following command at the directory where the Dockerfile is located.<br>
 
-`docker build -t <image name>:<tag> .`
+`$ docker build -t <image name>:<tag> .`
 
 If you don't specify a tag it is `latest` by default.<br>
 You can also replace `.` at the end for the location where the Dockerfile is located.
 
 Then, you can check the image built by the following command
 
-`docker image ls`
+`$ docker image ls`
 
 ### Execution
 
+If you found your image, copy the image ID of your image from the `docker image ls` command.
+and run the following command<br>
+`$ docker run -it <image ID> /bin/bash`
+
+if you add `-d` option before the image ID, it will only run the container but not executing it.<br>
+In this case you can join into the container by `docker exec -it <container ID>`
+<br>
+Now, Container is basically a running image.<br>
+conainers can be seen by the following commands<br>
+`$docker ps` or `$docker ps -a`
+`-a` option will show you even the stopped container, otherwise it only shows the running container.
+
+Now, whatever you do in your image will be saved in the same image ID.<br>
+You can quit the container by `$ exit` command.<br>
+
 ### Restart
 
+Same as before, you can restart the container by the
+`$ docker run -it <image ID> /bin/bash` command.
+Then, your previous work will be saved here.
+
 ### Delete
+
+Both the container and the image consumes a log of resources.<br>
+For containers,<br>
+```
+$ docker stop <Container ID>
+$ docker rm <Container ID>
+```
+For images,<br>
+`$ docker image rm <Image ID>`
+
+Make sure that the image removed has to be re-built.
+
+### Dump
+
+Now, you can dump the image so that other people can use it.
