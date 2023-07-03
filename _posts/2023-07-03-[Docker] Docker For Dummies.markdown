@@ -3,7 +3,7 @@ layout: post
 category: dev
 ---
 
-## This post will be keep updating
+## This post will be kept updating
 
 # Docker at a higher level
 
@@ -28,5 +28,32 @@ If you want to build an image, you could build it from the scratch, or you could
 
 Building an image is done by creating a `DockerFile`
 
+The following example shows how to make the Dockerfile
+<img src="{{site.url}}/assets/images/dev/docker1.png" style="border:white;" width="500" height="300" alt="docker1"><br>
 
+You need to know three commands<br>
+```
+From --> pull the base image (in the above example, I pulled the empty ubuntu OS image)
+ENV --> set the environment variable
+RUN --> run a shell command at build time
+CMD --> run a shell command after build time, which means that this command will execute at the beginning of the execution of the image(execution != build)
+COPY/ADD <source path> <dest path> --> copy a local file/directory into the image
+```
+So, yea. You need to know how to write shell commands to write a Dockerfile<br>
 
+If this is written, you can start building the image by the following command at the directory where the Dockerfile is located.<br>
+
+`docker build -t <image name>:<tag> .`
+
+If you don't specify a tag it is `latest` by default.<br>
+You can also replace `.` at the end for the location where the Dockerfile is located.
+
+Then, you can check the image built by the following command
+
+`docker image ls`
+
+### Execution
+
+### Restart
+
+### Delete
