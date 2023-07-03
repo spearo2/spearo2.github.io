@@ -26,7 +26,7 @@ We could either pull an image from the dockerhub (repository for built images li
 We could build the image.<br><br>
 If you want to build an image, you could build it from the scratch, or you could build it on top of the <br>existing image you could get from the repository.
 
-Building an image is done by creating a `DockerFile`
+Building an image is done by creating a `DockerFile` (Make sure that the name of the file is literally "DockerFile")
 
 The following example shows how to make the Dockerfile
 <img src="{{site.url}}/assets/images/dev/docker1.png" style="border:white;" width="500" height="auto" alt="docker1"><br>
