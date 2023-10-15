@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
 
-# Zack CG(창공) Lee's Progress Report
+# Spearo(Changgong Lee)'s Progress Report
 
 <img src="{{site.url}}/assets/images/YCZM.gif" width="200px" height="200px" alt="mainImage">
 
