@@ -1,7 +1,7 @@
----
+<!-- ---
 layout: post
 category: life
----
+--- -->
 
 # Yay, its been 10 days
 

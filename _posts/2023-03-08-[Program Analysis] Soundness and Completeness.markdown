@@ -1,6 +1,6 @@
 ---
 layout: post
-category: theory
+category: writings
 ---
 
 # Soundness vs. Completeness

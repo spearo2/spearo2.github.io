@@ -1,6 +1,6 @@
 ---
 layout: post
-category: research
+category: writings
 ---
 
 # 동적 심볼릭 테스팅 개요

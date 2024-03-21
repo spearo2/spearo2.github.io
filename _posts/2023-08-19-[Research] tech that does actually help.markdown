@@ -1,6 +1,6 @@
 ---
 layout: post
-category: research
+category: writings
 ---
 ## 도움이 되는 기술
 ## Tech that does actually help

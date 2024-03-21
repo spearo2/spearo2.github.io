@@ -1,6 +1,6 @@
 ---
 layout: post
-category: paper
+category: writings
 ---
 # 연구의 연료
 

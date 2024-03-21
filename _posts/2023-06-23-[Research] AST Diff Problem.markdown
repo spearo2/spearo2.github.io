@@ -1,6 +1,6 @@
 ---
 layout: post
-category: research
+category: writings
 ---
 
 # 추상 구문 트리 수정 문제

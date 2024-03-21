@@ -1,7 +1,7 @@
----
+<!-- ---
 layout: post
 category: life
----
+--- -->
 
 I am leaving this post here, so that I will be reminded of today.
 

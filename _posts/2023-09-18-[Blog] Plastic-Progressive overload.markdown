@@ -1,6 +1,6 @@
 ---
 layout: post
-category: life
+category: writings
 ---
 
 # 가소 점진적 과부하

@@ -1,7 +1,7 @@
----
+<!-- ---
 layout: post
 category: theory
----
+--- -->
 
 # Boolean Theorem
 

@@ -1,7 +1,7 @@
----
+<!-- ---
 layout: post
 category: life
----
+--- -->
 
 # The shortest yet greatest year of my life
 ## 33 posts

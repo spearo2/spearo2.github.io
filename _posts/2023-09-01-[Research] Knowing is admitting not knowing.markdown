@@ -1,6 +1,6 @@
 ---
 layout: post
-category: research
+category: writings
 ---
 
 # 지지위지지 부지위부지 (知之爲知之 不知爲不知)

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: paper
+category: writings
 ---
 
 [paper]({{site.url}}/assets/docs/automatic_verfication.pdf)

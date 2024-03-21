@@ -1,6 +1,6 @@
 ---
 layout: post
-category: paper
+category: writings
 ---
 
 # Future Research Direction of APR

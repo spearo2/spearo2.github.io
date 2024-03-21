@@ -1,6 +1,6 @@
 ---
 layout: post
-category: life
+category: writings
 ---
 # Reflection after reading you and your research by Richard Hamming.
 
