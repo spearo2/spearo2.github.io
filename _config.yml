@@ -10,11 +10,8 @@ tiitle: "Zack's Progress Report"
 
 header_pages:
   - index.md
-  - paper_review.md
-  - theory.md
-  - research.md
+  - writings.md
   - dev.md
-  - life.md
   - comments.md
 
 footer: '<h2 class="contact">Contact Information</h2>'
