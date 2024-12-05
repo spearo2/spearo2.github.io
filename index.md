@@ -12,8 +12,8 @@ permalink: /
 
 ## Research Interests
 - Programming Language Theory
-- Change Representation
-- Change Automation
+- Code Change Representation
+- Code Change Automation
 - Patch Transplantation
 
 ## Publications
@@ -24,12 +24,13 @@ permalink: /
 ## Contributions
 - 2021 ~ 2022 : [Korea Unification Bigdata Center (KUBIC)](https://kubic.handong.edu/) Handong Global University, South Korea (Advisor: Prof. Jaechang Nam)
 - 2022 ~ 2023 : Research on methods for ML model development, access, and code quality assurance, [Similar Code Suggestion (Simic)](https://github.com/ISEL-HGU/simic) Korea Institute of Science and Technology Information and Handong Global University, South Korea (Advisor: Prof. Jaechang Nam)
+- 2023 ~ 2025 : [Software Disaster Database]() Software disasTer research for Agile and Automated Response and repair (SDRAARR) and Korea Advanced Institute of Science & Technology (KAIST) (Advisor: Prof. Kihong Heo)
 
 ## Educations
 
 - 2014 ~ 2015 : Greenfield Community College, U.S.A. - AA in Economics.
 - 2015 ~ 2016 : University of Massachussetts Amherst, U.S.A. - BA in Economics (Not completed).
 - 2021 ~ 2022 : Handong Global University, South Korea - BS in Information Technology and Global Management, Summa Cum Laude.
-- 2023 ~      : Korea Advanced Institute of Science & Technology (KAIST), South Korea - MS in Computer Science.
+- 2023 ~ 2025 : Korea Advanced Institute of Science & Technology (KAIST), South Korea - MS in Computer Science.
 
 ## Recent Posts
